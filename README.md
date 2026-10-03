@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi there, I'm Misha! 👋
 
-<!--
-**ScuizzyBytes/ScuizzyBytes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a beginner Python programmer passionate about system monitoring tools, GUI apps, and mini-projects.
+Currently learning Python, Git workflows, and preparing for my journey into tech!
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech Stack & Tools
+- Languages: Python
+- GUI & Libraries: CustomTkinter, Pygame, Pycaw, Psutil
+- Version Control: Git & GitHub
+- IDE: PyCharm, VS Code
+
+---
+
+### 💻 My Projects
+- 🛡️ Cyber System Monitor — Real-time PC monitoring tool with custom alert systems & power controls.
+- 🧮 Canculator — Desktop calculator built with CustomTkinter.
+
+---
+
+### 📊 GitHub Stats
+![ScuizzyBytes GitHub stats](https://github-readme-stats.vercel.app/api?username=ScuizzyBytes&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ScuizzyBytes&layout=compact&theme=tokyonight)
