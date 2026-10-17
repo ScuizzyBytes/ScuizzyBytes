@@ -1,214 +1,141 @@
 <div align="center">
 
-<!-- ANIMATED QUANTUM ATOM & VECTOR MATRIX SVG HEADER -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" style="background: #0d1117; border-radius: 12px; border: 1px solid #30363d;">
-  <defs>
-    <!-- Glow Filters -->
-    <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="glow-core" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="12" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    
-    <!-- Linear Gradients -->
-    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00f0ff" />
-      <stop offset="50%" stop-color="#7000ff" />
-      <stop offset="100%" stop-color="#ff0055" />
-    </linearGradient>
-  </defs>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,20&height=230&section=header&text=MISHA&fontSize=84&fontColor=00F0FF&fontAlignY=38&animation=fadeIn&desc=//%20SCUIZZYBYTES%20%E2%80%94%20low-level%20code%20%C2%B7%20systems%20%C2%B7%20games&descSize=18&descAlignY=60&descColor=FF2E97" width="100%" alt="header" />
 
-  <!-- Background Vector Matrix Grid -->
-  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
-    <line x1="0" y1="40" x2="900" y2="40"/>
-    <line x1="0" y1="80" x2="900" y2="80"/>
-    <line x1="0" y1="120" x2="900" y2="120"/>
-    <line x1="0" y1="160" x2="900" y2="160"/>
-    <line x1="0" y1="200" x2="900" y2="200"/>
-    <line x1="0" y1="240" x2="900" y2="240"/>
-    <line x1="0" y1="280" x2="900" y2="280"/>
-    
-    <line x1="100" y1="0" x2="100" y2="320"/>
-    <line x1="200" y1="0" x2="200" y2="320"/>
-    <line x1="300" y1="0" x2="300" y2="320"/>
-    <line x1="400" y1="0" x2="400" y2="320"/>
-    <line x1="500" y1="0" x2="500" y2="320"/>
-    <line x1="600" y1="0" x2="600" y2="320"/>
-    <line x1="700" y1="0" x2="700" y2="320"/>
-    <line x1="800" y1="0" x2="800" y2="320"/>
-  </g>
+<a href="https://github.com/SCUIZZYBYTES">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=00F0FF&center=true&vCenter=true&width=760&height=50&lines=%3E+whoami+%E2%86%92+engineer+in+the+making;%3E+Python+%7C+raw+sockets+%7C+OpenCV+%7C+Pygame;%3E+loading+C%2B%2B+...+December+2026;%3E+target%3A+Principal+Software+Engineer+%2F+Quant+Developer;%3E+aim%3A+the+US+tech+scene+%F0%9F%87%BA%F0%9F%87%B8" alt="Typing SVG" />
+</a>
 
-  <!-- Animated Quantum Atom Centerpiece (Shifted Left) -->
-  <g transform="translate(220, 160)">
-    <!-- Atom Orbit 1 -->
-    <ellipse rx="110" ry="42" fill="none" stroke="#00f0ff" stroke-width="2.5" opacity="0.8" transform="rotate(0)" filter="url(#glow-cyan)" />
-    <!-- Atom Orbit 2 -->
-    <ellipse rx="110" ry="42" fill="none" stroke="#7000ff" stroke-width="2.5" opacity="0.8" transform="rotate(60)" />
-    <!-- Atom Orbit 3 -->
-    <ellipse rx="110" ry="42" fill="none" stroke="#ff0055" stroke-width="2.5" opacity="0.8" transform="rotate(120)" />
+<br/>
 
-    <!-- Quantum Electrons Orbiting -->
-    <circle r="6" fill="#00f0ff" filter="url(#glow-cyan)">
-      <animateMotion path="M -110,0 A 110,42 0 1,0 110,0 A 110,42 0 1,0 -110,0" dur="3s" repeatCount="indefinite" />
-    </circle>
-    <circle r="6" fill="#7000ff" filter="url(#glow-cyan)">
-      <animateMotion path="M -55,-95.2 A 110,42 60 1,0 55,95.2 A 110,42 60 1,0 -55,-95.2" dur="2.4s" repeatCount="indefinite" />
-    </circle>
-    <circle r="6" fill="#ff0055" filter="url(#glow-cyan)">
-      <animateMotion path="M 55,-95.2 A 110,42 120 1,0 -55,95.2 A 110,42 120 1,0 55,-95.2" dur="3.6s" repeatCount="indefinite" />
-    </circle>
-
-    <!-- Atomic Nucleus Core -->
-    <circle r="18" fill="url(#cyber-grad)" filter="url(#glow-core)">
-      <animate attributeName="r" values="16;20;16" dur="2s" repeatCount="indefinite" />
-    </circle>
-  </g>
-
-  <!-- 3D to 2D Vector Projection Diagram (Shifted Right) -->
-  <g transform="translate(650, 160)" stroke-linecap="round">
-    <!-- Projected 2D Plane -->
-    <polygon points="-80,-70 60,-70 100,70 -40,70" fill="#00f0ff" fill-opacity="0.05" stroke="#00f0ff" stroke-width="1.5" stroke-dasharray="4,4" />
-    
-    <!-- 3D Vector Ray (P_3D -> P_2D) -->
-    <line x1="-120" y1="-110" x2="30" y2="10" stroke="#ff0055" stroke-width="2.5" filter="url(#glow-cyan)" />
-    
-    <!-- Vector Nodes -->
-    <circle cx="-120" cy="-110" r="5" fill="#ff0055" filter="url(#glow-cyan)" />
-    <circle cx="30" cy="10" r="5" fill="#00f0ff" filter="url(#glow-cyan)" />
-    
-    <!-- Mathematical Annotation Text -->
-    <text x="-140" y="-120" fill="#ff0055" font-family="monospace" font-size="12" font-weight="bold">P(x, y, z)</text>
-    <text x="45" y="25" fill="#00f0ff" font-family="monospace" font-size="12" font-weight="bold">P'(x/z, y/z)</text>
-    <text x="-30" y="100" fill="#7000ff" font-family="monospace" font-size="13" font-weight="bold">Matrix3D ➔ Projection2D</text>
-  </g>
-
-  <!-- Cyber Titles -->
-  <text x="450" y="45" text-anchor="middle" fill="#00f0ff" font-family="monospace" font-size="20" font-weight="900" letter-spacing="4" filter="url(#glow-cyan)">
-    SYSTEM.INITIALIZE // QUANTUM_CORE
-  </text>
-</svg>
-
-</div>
-
-<br>
-
-<div align="center">
-
-# 🌌 SCUIZZYBYTES // QUANTUM ARCHITECT
-
-```math
-\hat{H}|\Psi\rangle = E|\Psi\rangle \quad \mathbf{\&} \quad \begin{bmatrix} X_{2d} \\ Y_{2d} \end{bmatrix} = \begin{bmatrix} \frac{f \cdot X}{Z} \\ \frac{f \cdot Y}{Z} \end{bmatrix}
-```
-
-### ⚡ Low-Level Systems Specialist & Network Engineer
-*Dissecting binary streams at raw-socket level and transforming complex 3D quantum spaces into high-performance 2D code.*
-
----
-
-<!-- DYNAMIC BADGES -->
-<p align="center">
-  <img src="https://img.shields.io/badge/CORE-PYTHON_3.12-00F0FF?style=for-the-badge&logo=python&logoColor=black" />
-  <img src="https://img.shields.io/badge/NETWORK-RAW_SOCKETS-FF0055?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/MATH-3D_VECTOR_PROJECTION-7000FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/GUI-CUSTOMTKINTER-00FF66?style=for-the-badge" />
-</p>
+![Profile views](https://komarev.com/ghpvc/?username=SCUIZZYBYTES&label=SYSTEM+VISITS&color=ff2e97&style=for-the-badge)
+![Location](https://img.shields.io/badge/LOCATION-GERMANY_%F0%9F%87%A9%F0%9F%87%AA-00f0ff?style=for-the-badge&labelColor=0d1117)
+![Languages](https://img.shields.io/badge/LANG-RU_%C2%B7_DE_%C2%B7_EN-ff2e97?style=for-the-badge&labelColor=0d1117)
+![Status](https://img.shields.io/badge/STATUS-LEVELING_UP-00f0ff?style=for-the-badge&labelColor=0d1117)
 
 </div>
 
 ---
 
-## 🔬 TECH ARSENAL & QUANTUM STACK
+## `> cat /etc/misha.conf`
 
-```
-┌───────────────────────────────┬──────────────────────────────────────────────┐
-│ DOMAIN                        │ TECHNOLOGIES & TOOLS                         │
-├───────────────────────────────┼──────────────────────────────────────────────┤
-│ Low-Level & Networking        │ Python 3, Linux Raw Sockets (AF_PACKET), BSD │
-│ Binary Parsing & Structs      │ Bitwise Masking, struct.unpack, Endianness   │
-│ Vector Mathematics & 3D Math  │ 3D-to-2D Perspective Projection, Matrices    │
-│ Frontend & Cyber Interfaces   │ CustomTkinter, Asynchronous Threading, Tk    │
-│ Systems & OS                  │ WSL2, Linux Kernel Networking, Bash, Git     │
-└───────────────────────────────┴──────────────────────────────────────────────┘
-```
-
----
-
-## 📐 THE VECTOR3D ➔ 2D PROJECTION ENGINE
-
-```
-       3D Space Point Vector P(x, y, z)
-                 \
-                  \  (Ray of Light / Perspective Transformation)
-                   \
-                    ▼ 
-         [ Projection Matrix Plane ]
-                    │
-                    ├──> X_proj = (X * FocalLength) / Z
-                    └──> Y_proj = (Y * FocalLength) / Z
-                    │
-                    ▼
-          2D Screen Coordinate P'(x, y)
+```yaml
+name:        Misha
+handle:      SCUIZZYBYTES
+base:        Germany
+languages:   [Russian, German, English]
+daily_os:    [Windows 11, Linux Mint Cinnamon]   # dual boot, no regrets
+editors:     [PyCharm, VS Code]
+terminal:    btop + fastfetch, heavily customized
+internship:  skillzUP (youth IT project)
+next_level:  C++ deep dive -> December
+long_term:   Principal Software Engineer | Quant Developer
+dream_zone:  United States tech industry
 ```
 
 ---
 
-## ⚡ FEATURED HIGHLIGHT PROJECT
+## 💻 Low-level code & systems engineering
+
+I don't just write scripts, I take technology apart to see how it ticks.
+
+- 🐍 **Python** — desktop apps with **CustomTkinter**, games with **Pygame**, computer vision with **OpenCV**, system monitoring with **psutil**, pretty terminals with **rich**, number crunching with **NumPy**
+- 🌐 **Networking** — raw sockets (`AF_PACKET`), packets, bitmasks and data structures
+- 🐧 **Linux + Windows** — dual-boot daily driver, terminal-first workflow
+- ⚙️ **Next target** — C++ (December 2026), because I want to know what happens under the hood
+
+## 🛠️ Tech stack
 
 <div align="center">
 
-### 🛡️ [CYBER_SNIFFER // Raw Socket Packet Monitor](https://github.com/ScuizzyBytes/cyber-packet-sniffer)
-*A high-performance, zero-dependency network sniffer and frame dissector built from scratch.*
+<img src="https://skillicons.dev/icons?i=py,cpp,js,nodejs,lua,bash,git,github,linux,windows,vscode,pycharm&theme=dark" alt="Tech stack" />
 
-```
- [ RAW SOCKET (AF_PACKET) ] ──► [ ETHERNET II DISSECTOR ] ──► [ IPv4 IHL BITWISE MASK ] ──► [ CYBERPUNK GUI ]
+<br/><br/>
+
+![Python](https://img.shields.io/badge/Python-00f0ff?style=flat-square&logo=python&logoColor=0d1117)
+![OpenCV](https://img.shields.io/badge/OpenCV-ff2e97?style=flat-square&logo=opencv&logoColor=0d1117)
+![NumPy](https://img.shields.io/badge/NumPy-00f0ff?style=flat-square&logo=numpy&logoColor=0d1117)
+![Pygame](https://img.shields.io/badge/Pygame-ff2e97?style=flat-square&logo=python&logoColor=0d1117)
+![Linux Mint](https://img.shields.io/badge/Linux_Mint-00f0ff?style=flat-square&logo=linuxmint&logoColor=0d1117)
+![Windows 11](https://img.shields.io/badge/Windows_11-ff2e97?style=flat-square&logo=windows11&logoColor=0d1117)
+
+</div>
+
+## 🎮 Virtual worlds
+
+Speed, immersion and tweaking everything until it's perfect.
+
+| Game | What I like about it |
+|------|----------------------|
+| **Minecraft Java** | Fabric, Voxy, Complementary shaders, modpack tuning |
+| **CS2** | Precision and game sense |
+| **GTA V** | Open-world chaos |
+| **Roblox** | Experiments and creation |
+| **Standoff 2** | Fast mobile shooter |
+| **Riders Republic** | Extreme sports sandbox |
+
+## ⌨️ Hardware & style
+
+- **Keyboard:** custom mechanical **Aula Win60 HE Max**
+- **Terminal:** `btop` + `fastfetch`, because a pretty terminal is a productive terminal
+- **Food:** beef tenderloin steak, medium / medium-rare 🥩 and properly made pelmeni with butter, sour cream or mayo 🥟
+
+## 🚀 Strategy & ambitions
+
+```text
+[ PLAN ]
+  now      -> Python, systems, networks, practice at skillzUP
+  december -> C++ deep dive
+  future   -> Principal Software Engineer / Quant Developer
+  location -> United States tech industry
 ```
 
-* **Surgical Precision:** Direct bitwise `IHL & 15` masking to extract IPv4 payload offsets.
-* **Low-Level Socket Ingestion:** Raw packet processing using native OS `SOCK_RAW` sockets.
-* **Asynchronous GUI:** Multi-threaded live stream architecture powered by `CustomTkinter`.
+I'm building my own stack step by step, leveling up my skills and laying the bridge from today to an elite tech future.
+
+---
+
+## 📊 GitHub stats
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=SCUIZZYBYTES&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=ff2e97&text_color=c9d1d9" alt="GitHub stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SCUIZZYBYTES&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com?user=SCUIZZYBYTES&theme=tokyonight&hide_border=true&background=0d1117&ring=ff2e97&fire=00f0ff&currStreakLabel=00f0ff" alt="Streak stats" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SCUIZZYBYTES&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00f0ff&line=ff2e97&point=ffffff" alt="Activity graph" width="100%" />
 
 </div>
 
 ---
 
-## 📊 GITHUB QUANTUM METRICS
+<details>
+<summary>🌐 <b>Русская версия</b></summary>
+
+<br/>
+
+### ⚡ Миша // @SCUIZZYBYTES
+
+Инженер нового поколения: резкий, сфокусированный и бескомпромиссный.
+
+**💻 Код и системы**
+- Python: CustomTkinter, Pygame, OpenCV, psutil, rich, NumPy
+- Сырые сокеты (`AF_PACKET`), битовые маски, структуры данных
+- Dual boot: Windows 11 + Linux Mint Cinnamon, PyCharm и VS Code, кастомный терминал (`btop`, `fastfetch`)
+- Переход на C++ в декабре
+
+**🎮 Игры:** Minecraft Java (Fabric, Voxy, Complementary), CS2, GTA V, Roblox, Standoff 2, Riders Republic
+
+**⌨️ Железо и вкус:** кастомная клавиатура Aula Win60 HE Max, стейк из говяжьей вырезки medium / medium-rare, пельмени с маслом, сметаной или майонезом
+
+**🚀 Цель:** живу в Германии, свободно говорю на русском, немецком и английском, практика в молодёжном IT-проекте skillzUP. Мой прицел — технологический олимп США: Principal Software Engineer и Quant Developer.
+
+</details>
 
 <div align="center">
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,20&height=120&section=footer" width="100%" alt="footer" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=ScuizzyBytes&show_icons=true&theme=cyberpunk&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=00f0ff&text_color=ffffff" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ScuizzyBytes&layout=compact&theme=cyberpunk&hide_border=true&bg_color=0d1117&title_color=7000ff&text_color=ffffff" width="48%" />
-
-<br><br>
-
-<!-- ANIMATED STREAK STATS -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ScuizzyBytes&theme=cyberpunk&hide_border=true&background=0d1117&ring=00f0ff&fire=ff0055&currStreakLabel=00f0ff" width="97%" />
-
-</div>
-
----
-
-<div align="center">
-
-### 🌐 CONNECT WITH THE QUANTUM CORE
-
-[![GitHub](https://img.shields.io/badge/GitHub-ScuizzyBytes-00F0FF?style=for-the-badge&logo=github&logoColor=black)](https://github.com/ScuizzyBytes)
-[![Terminal](https://img.shields.io/badge/Status-Online_&_Coding-00FF66?style=for-the-badge)](https://github.com/ScuizzyBytes)
-
-<br>
-
-```
-"Every complex system is built from simple bits; master the bits, master the system."
-```
+`// connection closed. see you in the repos.`
 
 </div>
