@@ -202,6 +202,6 @@ Ich schreibe nicht nur Skripte, ich nehme Technik auseinander, um zu verstehen, 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,20&height=120&section=footer" width="100%" alt="footer" />
 
-`// connection closed. see you in the repos.`
+`// connection closed. see you in the repos.'
 
 </div>
