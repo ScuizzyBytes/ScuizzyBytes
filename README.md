@@ -1,6 +1,6 @@
 <div align="center">
 
-```
+```text
    ______   __    __  ________         _______   ______   ______  ________ 
   /      \ /  |  /  |/        |       /       \ /      | /      |/        |
  /AAAAAA  |$$ |  $$ |$$AAAAAA/        $$AAAAA  |$$AAAA/  /AAAAAA/ $$$AAAA/ 
@@ -12,64 +12,65 @@
  $$/   $$/  $$$$$$/    $$/            $$/   $$/  $$$$$$/ $$$$$$/   $$/      
 ```
 
-### ⚡ LOW-LEVEL PYTHON & GAMEDEV TERMINAL ⚡
+### ⚡ C++20 SYSTEMS & QUANT DEV TERMINAL ⚡
 
-```
+```text
 [SYSTEM STATUS: ONLINE]
 [HOST: misha-workstation]
-[SETUP: DUAL-MONITOR RIG]
-[CORE: PYTHON / PYGAME-CE / CUSTOMTKINTER]
+[SETUP: DUAL-MONITOR RIG // LINUX]
+[CORE: C++20 / CMAKE / PYTHON]
 ```
 
----
+> **BORN NOT TO BE AVERAGE** — *Power and Beauty in Every Line of Code.*
 
 </div>
 
 <div align="left">
 
+---
+
 ## 🛠️ // TECH_STACK & TOOLING
 
-* **Core Engine:** `Python 3.12+`
-* **Game Development:** `Pygame-CE` (Community Edition)
-* **GUI & Interfaces:** `CustomTkinter`
-* **Environment & Tools:** `VS Code` | `Git` | `Linux / Bash`
+* **Systems & Low-Level:** `C++20` | `CMake` | `g++`
+* **Scripting & Prototyping:** `Python 3.12+` | `NumPy` | `Pygame` | `CustomTkinter` | `psutil`
+* **Environment & Tools:** `CLion` | `VS Code` | `Vim` | `Zsh` | `Git` | `Linux`
 
 ---
 
-## 🪓 // PROJECT_MANIFEST (ACTIVE & UPCOMING)
+## ⚡ // PROJECT_MANIFEST (ACTIVE & RELEASES)
 
-### 1. 🩸 Axe Riot (Alley Berserk)
-> **Type:** *Top-Down Isometric Pixel-Art Slasher*
-* **Tech:** Python, Pygame-CE, State-based Animations.
-* **Features:** Dynamic sprite animation state loops, M1 non-interruptible attack combo frames, mouse-cursor entity spawning, obstacle bounds & blocked spawn zones (`Rect.collidepoint`).
+### 1. 🧩 `hex_dump`
+> **Type:** *C++20 Binary Stream & Byte Inspector*
+- **Tech:** C++20 (`<fstream>`, `<iomanip>`, `<vector>`, `<cstdint>`, `<cctype>`), CMake 3.20+.
+- **Features:** 16-byte chunked binary reader (`file.gcount()`), 8-digit hex offsets, aligned 16-byte grid with `8+8` byte visual split, and safe printable ASCII column.
 
-### 2. 🖥️ Hardware Desktop Monitor (GUI)
-> **Type:** *Real-time System Resource Dashboard*
-* **Tech:** CustomTkinter, Matplotlib / PyQtGraph.
-* **Features:** Designed specifically to run on the second monitor, tracking CPU/GPU temperatures, memory load, and network traffic live.
+### 2. 📡 `space_sniffer`
+> **Type:** *Real-Time UDP Packet Sniffer & Visualizer*
+- **Tech:** Python (`socket`, `struct`, `threading`, `Pygame`).
+- **Features:** Captures local network UDP packets on the fly and renders live network traffic as falling asteroids in an interactive Pygame view.
 
-### 3. 🗺️ Tilemap Level Editor
-> **Type:** *Visual Game Development Tooling*
-* **Tech:** Pygame-CE, JSON Data Serialization.
-* **Features:** Grid snapping, wall/spawn zone painting, custom map export for direct loading into *Axe Riot*.
+### 3. 📊 `pc-monitor-cls`
+> **Type:** *Terminal System Resource Monitor*
+- **Tech:** Python (`psutil`, `rich`), Discord Webhooks.
+- **Features:** Live CLI telemetry for system resources with automated Discord webhook alerts when thresholds trigger.
 
-### 4. 📡 Local TCP Mesh Chat / Messenger
-> **Type:** *Low-Level Networking Utility*
-* **Tech:** Sockets (`socket`), Threading, CustomTkinter.
-* **Features:** Zero-internet local network file transfer and encrypted peer-to-peer messaging.
+### 4. 🌌 `physics-sim` & `vm-engine`
+> **Type:** *2D N-Body Gravity Simulation & Custom Virtual Machine*
+- **Tech:** Python (`Pygame`, `math`, custom bytecode/execution loop).
+- **Features:** Gravitational mass attraction with velocity clamping alongside a custom virtual machine and CLI/terminal tooling built from scratch.
 
-### 5. 🔒 Media Batch Converter & Encryption Suite
-> **Type:** *Automation & Security Tool*
-* **Tech:** Pillow, FFmpeg-python, Cryptography.
-* **Features:** One-click image/video compression, WebP conversion, and master-key file encryption.
+### 5. 🎮 `dark-dungeon` & `9GAMES`
+> **Type:** *2D Pixel Platformer & Multi-Game Launcher*
+- **Tech:** Python (`Pygame`, `CustomTkinter`, `PIL`).
+- **Features:** Gravity physics, jumping, terrain layers, and sprite-sheet animations in `dark-dungeon`, paired with a scrollable `CustomTkinter` launcher for standalone games.
 
 ---
 
 <div align="center">
 
-```
+```text
 ========================================================================
-       "Power and Beauty in Every Line of Code. Ready for Production."
+    "Power and Beauty in Every Line of Code. BORN NOT TO BE AVERAGE."
 ========================================================================
 ```
 
