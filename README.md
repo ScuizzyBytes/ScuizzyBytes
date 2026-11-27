@@ -32,7 +32,7 @@
 ## 🛠️ // TECH_STACK & TOOLING
 
 * **Systems & Low-Level:** `C++20` | `CMake` | `g++`
-* **Scripting & Prototyping:** `Python 3.12+` | `NumPy` | `Pygame` | `CustomTkinter` | `psutil`
+* **Scripting & Prototyping:** `Python 3.14+` | `NumPy` | `Pygame` | `CustomTkinter` | `psutil`
 * **Environment & Tools:** `CLion` | `VS Code` | `Vim` | `Zsh` | `Git` | `Linux`
 
 ---
